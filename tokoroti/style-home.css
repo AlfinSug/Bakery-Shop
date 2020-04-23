@@ -1,0 +1,109 @@
+@font-face {
+    font-family: productSans;
+    src: url(img/Product\ Sans\ Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/Group\ 95.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: productSans;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    color: #fff;
+    padding-top: 10px;
+    min-height: 50px;
+    background: #F6F5D4;
+    box-shadow: 0 1px 5px  #C47D27;
+}
+
+.logo {
+    float: left;
+    width: 17%;
+    height: 17%;
+    margin-top: -10px;
+    padding: 1%;
+}
+
+header nav {
+    float: right;
+    margin-right: 80px;
+    margin-top: -60px;
+}
+  
+header li {
+    display: inline-block;
+    list-style: none;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+}
+  
+header li a {
+    color: #C47D27;
+    text-decoration: none;
+    font-size: 16px;
+    background: #F6F5D4;
+    line-height: 60px;
+}
+  
+ul {
+    margin: 0;
+    padding: 0;
+}
+  
+header .active a {
+    color: rgb(148, 91, 21);
+    font-weight: bold;
+}
+
+#main {
+    min-height: 400px;
+    padding-top: 120px;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #fff;
+}
+
+h2 {
+    color: #C47D27;
+}
+
+p {
+    margin-top: -20px;
+    color: rgb(219, 152, 70);
+}
+header ul ul {
+    position: absolute;
+    top: 60px;
+    background: #F6F5D4;
+    display: none;
+    border-radius: 10px;
+}
+
+header ul li:hover > ul {
+    display: block;
+}
+
+/* spinner */
+.spinner-data select {
+    height: 50px;
+    width: 30%;
+    justify-content: center;
+    font-size: 20px;
+    font-family: productSans;
+    color: #C47D27;
+    border-radius: 5px;
+    padding-left: 2%;
+    background: none;
+    border: 3px solid #C47D27;
+  }
+  
